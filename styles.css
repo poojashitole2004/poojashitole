@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.content {
+    margin-top: 20px;
+    color: #333;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+}
